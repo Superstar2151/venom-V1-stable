@@ -235,7 +235,7 @@ def handle_message(message):
         bot.reply_to(message, "*𝘼𝙩𝙩𝙖𝙘𝙠2 𝙎𝙚𝙡𝙚𝙘𝙩𝙚𝙙*", parse_mode='Markdown')
         attack_command(message)
     elif message.text == "𝙃𝙩𝙩𝙥 𝘾𝙖𝙣𝙖𝙧𝙮":
-        bot.send_message(message.chat.id, "*𝙃𝙩𝙩𝙥 𝘾𝙖𝙣𝙖𝙧𝙮 𝘿𝙤𝙖𝙬𝙡𝙤𝙖𝙙 𝙇𝙞𝙣𝙠: https://t.me/V3NOM_CHEAT/47*", parse_mode='Markdown')
+        bot.send_message(message.chat.id, "*𝙃𝙩𝙩𝙥 𝘾𝙖𝙣𝙖𝙧𝙮 𝘿𝙤𝙖𝙬𝙡𝙤𝙖𝙙 𝙇𝙞𝙣𝙠: Wait a Moment...*", parse_mode='Markdown')
     elif message.text == "𝙈𝙮 𝙞𝙣𝙛𝙤":
         user_id = message.from_user.id
         user_data = users_collection.find_one({"user_id": user_id})
@@ -254,7 +254,7 @@ def handle_message(message):
     elif message.text == "𝙃𝙚𝙡𝙥":
         bot.reply_to(message, "*𝘼𝙙𝙙 𝙮𝙤𝙪𝙧 𝙞𝙙 𝙗𝙮 𝙜𝙤 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥 𝙩𝙮𝙥𝙚 /add uid 99 99 , 𝙩𝙝𝙚𝙣 𝙨𝙚𝙡𝙚𝙘𝙩 𝙖𝙩𝙩𝙖𝙘𝙠1 𝙤𝙧 2 𝙚𝙣𝙩𝙚𝙧 𝙞𝙥 𝙥𝙤𝙧𝙩 𝙩𝙞𝙢𝙚 𝘁𝗵𝗿𝗲𝗮𝗱𝘀 𝙩𝙤 𝙖𝙩𝙩𝙖𝙘𝙠*", parse_mode='Markdown')
     elif message.text == "𝙎𝙘𝙧𝙞𝙥𝙩 𝙇𝙞𝙣𝙠":
-        bot.reply_to(message, "*𝙎𝙘𝙧𝙞𝙥𝙩 𝙇𝙞𝙣𝙠• https://t.me/V3NOM_CHEAT/235*", parse_mode='Markdown')
+        bot.reply_to(message, "*𝙎𝙘𝙧𝙞𝙥𝙩 𝙇𝙞𝙣𝙠• Wait a Moment...*", parse_mode='Markdown')
     else:
         bot.reply_to(message, "*𝙄𝙣𝙫𝙖𝙡𝙞𝙙 𝙤𝙥𝙩𝙞𝙤𝙣*", parse_mode='Markdown')
 
